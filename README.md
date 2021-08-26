@@ -1,3 +1,5 @@
+![ArduinoICT](img/ArduinoICT.jpg)
+
 Quite some time ago I purchased an IC Tester from Genius. The G540 is able to programm various IC as it is able to test CMOS and TTL IC. Last option was quite interesting to me as this makes repairing stuff a lot easier when you know which part is defect instead of exchanging all part just by trial and error.
 
 The programmer did a quite good job (some IC were not recognized) until I had to upgrade to Win7.
@@ -6,14 +8,15 @@ Here the programmer started to create troubles, the programmer was not recognize
 
 So the result was a Arduino based IC-tester with an optional Serial output which does the job in most cases (still some room for improvement available).
 
-___
+![G540](img/G540.jpg)
 
 The original tester did a quite good job exept, that you had a lot of clicks (selecting the device etc.) before you could start, you allway needed to run the programm itself and most important:
 
 there was no information about the testing result. If a IC was not found it was not possible to identify if it was not found due to being defect or due to a incorrect testing cycle (which appears to happen for some ICs).
 
 So the idea was to overcome these disadvantages by develloping a tester of my own based on a Arduino Nano. 
-___
+
+![Diagram IC-Tester](img/Diagram.jpg)
 
 The circuit is quite easy.
 
@@ -30,6 +33,7 @@ While testing multiple signals are set to the tested part which do not match the
 The test ist started with a single switch connected to one of the signle use analogue inputs.
 
 ___
+
 In the linked video the tester can be seen in operation.
 
 Similar to the original the tester does not find all required IC. Some are a bit difficult in regard to what signals shoulb be expected. I will do some optimization as I find some spare time.
